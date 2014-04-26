@@ -7,7 +7,7 @@ example of PYTHON Desktop application
  
  Steps to work
  
- 1- python exporter.py
+ 1- ```python exporter.py```
  
  2- open test.json
  
@@ -15,3 +15,6 @@ example of PYTHON Desktop application
  
  
  You can use pyinstaller to generate the application
+ 
+ WINDOWS = ```pyinstaller --noconsole --onefile exporter.py```
+ MAC = ```pyinstaller --noconsole --onefile -w exporter.py```
