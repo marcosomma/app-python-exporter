@@ -17,4 +17,5 @@ example of PYTHON Desktop application
  You can use pyinstaller to generate the application
  
  WINDOWS = ```pyinstaller --noconsole --onefile exporter.py```
+ 
  MAC = ```pyinstaller --noconsole --onefile -w exporter.py```
