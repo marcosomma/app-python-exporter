@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CourseObject structureVersion="1" name="test_cour_a01_it_enus - New Course" courseLanguage="English - US " courseType="IT" courseDefaultAudioFormat="SPX" id="test_cour_a01_it_enus" courseNumber="test_cour_a01_it_enus" commentsXMLVersion="1.0" courseIdsVerified="true" synergyVersionBuiltWith="1.23.119" selfMonitored="false" nasbaReady="true" splashRegeneration="true" transcripts="true" tcNodeStatus="false" descNodeTcStatus="false" commentStatus="None" synergyVersionEditedWith="1.23.119" synergyVersionTrail="1.23.119" hasNarratedAnimation="false" courseReleaseDate="" courseRevisionDate="" sourceMaterial="" courseVersion="1.0" replacedCourseID="n/a" revisionChanges="n/a" coursePublishedDuration="0.0" courseLanguagePrefix="enus" isCpeCreditQualified="false" enabled508="false" baseID="8" hasVideo="true" tabletReady="true" courseAudioFormats="SPX,WE,AAC">
+<courseTitle></courseTitle>
+<courseTitle1></courseTitle1>
+<courseLocale></courseLocale>
+<ResourcesObject tcNodeStatus="false" commentStatus="None">
+<ReferencesObject tcNodeStatus="false" commentStatus="None"/>
+<JobAidsObject tcNodeStatus="false" commentStatus="None"/>
+<FOAsObject tcNodeStatus="false" commentStatus="None"/>
+<AcknowledgementObject tcNodeStatus="false" commentStatus="None"/>
+<BLRsObject attBlrHeader="" tcNodeStatus="false" commentStatus="None"/>
+</ResourcesObject>
+<pointerColor/>
+<highlightColor>255, 255, 0, 96</highlightColor>
+<courseGoal/>
+<VideoPlatformFormatModelItem visible="true" platform="desktop" format="flv" width="768" height="432"/>
+<VideoPlatformFormatModelItem visible="true" platform="desktop" format="mp4" width="768" height="432"/>
+</CourseObject>

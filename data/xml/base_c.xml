@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Course jobAidsCount="0" glossary="glossary.html" objectives="course_obj.html" references="references.html" skillbriefs="skillbriefs.html" transcripts="true" jobaids="jobaids.html" learningaids="learningaids.html" resources="resources_home.html" acknowledgements="acknowledgements.html" aboutThisCourse="about_course.html" copyright="copyrights.html" license="licensing.html" foas="followons.html" structureVersion="1" name="" courseLanguage="English - US " courseType="IT" courseDefaultAudioFormat="SPX" courseNumber="" commentsXMLVersion="1.0" courseIdsVerified="true" synergyVersionBuiltWith="1.23.119" selfMonitored="false" nasbaReady="true" splashRegeneration="true" synergyVersionEditedWith="1.23.119" synergyVersionTrail="1.23.119" hasNarratedAnimation="false" courseReleaseDate="" courseRevisionDate="" sourceMaterial="" courseVersion="1.0" replacedCourseID="n/a" revisionChanges="n/a" coursePublishedDuration="0.0" courseLanguagePrefix="enus" isCpeCreditQualified="false" enabled508="false" baseID="8" hasVideo="true" tabletReady="true" courseAudioFormats="SPX,WE,AAC" hasMobileVideo="false">
+<courseTitle></courseTitle>
+<courseTitle1></courseTitle1>
+<courseLocale></courseLocale>
+<pointerColor/>
+<highlightColor>255, 255, 0, 96</highlightColor>
+<courseGoal/>
+<VideoPlatformFormatModelItem visible="true" platform="desktop" format="flv" width="768" height="432"/>
+<VideoPlatformFormatModelItem visible="true" platform="desktop" format="mp4" width="768" height="432"/>
+</Course>
