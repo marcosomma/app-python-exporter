@@ -3,7 +3,7 @@ app-python-exporter
 
 example of PYTHON Desktop application  
  
- This application convert a simple Json in a precise folder and file structure.
+ This application convert a simple Json in a precise folder and XML file structure.
  
  Steps to work
  
