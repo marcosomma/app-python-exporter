@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="" version="1" templateFileName="short_answer_text.xml" hasVideo="false">
+<container id="cont_sa" component_id="cont_sa_1">
+<style x="" y=""/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value></value>
+</text_item>
+</Page>

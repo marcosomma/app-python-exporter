@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Topic Transcript</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="core_html.css" />
+<meta http-equiv="content-style-type" content="text/css2" />
+<script language="JavaScript" type="text/javascript">
+newWindow="";
+windowOpen = false;
+function takeaway() {
+doWindow("takeaway.html");
+}
+function doWindow(filename) {
+while(filename.indexOf("+") > 0){
+filename = filename.replace("+", " ");
+}
+if (!newWindow.closed && newWindow.location){
+newWindow.location.href = filename;
+newWindow.focus();
+}else {
+newWindow=window.open(filename,'Title','toolbar=0,location=0,status=0,menubar=0,scrollbars=yes,resizable=yes,width=760,height=600');
+if (!newWindow.opener) {
+newWindow.opener = self;
+}
+newWindow.focus();
+windowOpen = true;
+}
+}
+function reveal_discovery(id) {
+var e = document.getElementById(id);
+if(e.style.display == 'block'){
+e.style.display = 'none';
+}else{
+e.style.display = 'block';
+}
+}
+</script>
+<style>
+p.clicklist-prompt { display: block; padding-top: 10px; font-size: smaller; color: #800000; margin-left: 55px; }
+dl.bodytext-click-list {font-family: Arial, Helvetica, sans-serif; color: #000000; background-color: transparent; margin-left: 58px; padding-top: 0.1em; margin-top: -0.7em; }
+dl.bodytext-click-list dt { margin-left: 0em; cursor: default; margin-top: 1.2em; margin-bottom: 1.0em; }
+dl.bodytext-click-list a:link { text-decoration: none; color: #400000; background-color: transparent; }
+dl.bodytext-click-list a:active {text-decoration: underline; color: #a00000; cursor: pointer; background-color: transparent; }
+dl.bodytext-click-list a:visited { text-decoration: none; color: #400000; cursor: pointer; background-color: transparent; }
+dl.bodytext-click-list a:hover {text-decoration: underline; color: #a00000; cursor: pointer; background-color: transparent; }
+body div#fullpage-box div#content-box dl.bodytext-click-list dd.showhide, dl.bodytext-click-list dd { color: #000000; background-color: transparent; }
+body div#fullpage-box div#content-box dl.bodytext-click-list dd.showhide, dl.bodytext-click-list dd { color: #000000; background-color: #f0f0f0; padding: 15px 15px 15px 15px; }
+body div#fullpage-box div#content-box dl.bodytext-click-list dd.showhide p.intro-bodytext, dl.bodytext-click-list dd p.intro-bodytext, dd.showhide p.bodytext, dl.bodytext-click-list dd p.bodytext { width: 90% }
+dd.showhide ul, dd ul { font-size: 90%; margin-left: 20px; margin-bottom: 2px;}
+dl.bodytext-click-list dd.showhide { margin-left: 20px; display: none; }
+dl.bodytext-click-list dd.showhide h3.challenge-subheading { font: bold 1.2em Arial, sans-serif; color: #000000; background-color: transparent; padding-top: 0; margin-left: 0; margin-top: 0.5em; margin-bottom: 0.5em; }
+dl.bodytext-click-list dd.showhide h4.challenge-subheading {font: bold 0.9em Arial, sans-serif; color: #000000; background-color: transparent; padding-top: 0; margin-left: 0; margin-top: 1.0em; margin-bottom: 0.5em; text-transform: uppercase; }
+dd.showhide p.bodytext { color: #101010; background-color: transparent; padding-top: 0; margin-top: 0.5em; margin-bottom: 0.5em; font-size: 1.0em; line-height: 1.4em; text-align: left; margin-left: 20px;}
+dd.showhide p.secondlevel-text { color: #101010; background-color: transparent; padding-top: 0; margin-top: 0.5em; margin-bottom: 0.5em; font-size: 1.0em; line-height: 1.3em; text-align: left; width: 70%; margin-left: 20px;}
+dd.showhide ul.bodytext { color: #101010; background-color: transparent; padding-top: 0; margin-top: 0.5em; margin-bottom: 0.5em; font-size: 0.9em; line-height: 1.2em; text-align: left; width: 60%; margin-left: 0px; padding-left: 60px; }
+dd.showhide p.bodytext-question { color: #101010; background-color: transparent; padding-top: 0; margin-top: 0.5em; margin-bottom: 0.5em; font-size: 1.0em; line-height: 1.4em; text-align: left; width: 70%; margin-left: 20px;}
+dd.showhide li.options-list { color: #101010; background-color: transparent; padding-top: 0; margin-top: 0.5em; margin-bottom: 0.5em; font-size: 1.0em; line-height: 1.4em; text-align: left; width: 70%; margin-left: 20px;}
+dd.showhide p.feature-stem { color: #101010; background-color: transparent; margin-left: 3px; }
+div.column-object {margin-bottom: 20px;}
+@media print {
+p.clicklist-prompt { display: none; }
+body > div#fullpage-box div#content-box > dl.bodytext-click-list > dd.showhide {display: block; }
+}
+</style>
+</head>
+<body>
+<div id="textmode"></div>
+<a name="pagetop" id="pagetop" tabindex="10"></a>
+<div id="fullpage-box">
+<noscript><p>
+This page contains a JavaScript function that prints out the current frame document. To print out the document without using JavaScript, you need to press Control P. JavaScript may also be used to launch a supplement page in a new window and to provide a link for closing the current window. The page may use JavaScript to ensure stable loading in different viewing circumstances, and this may include a scripted page refresh.<br />
+</p></noscript>
+<div id="printout-logo-right-solo">
+<img src="logo_printing.gif" width="188" height="48" alt="SkillSoft logo" />
+</div>
+<div id="printer-text">
+|&#160;<a href="javascript:window.print()">Print</a>&#160;|&#160;<a href="#contents">Contents</a>&#160;|&#160;<a href="javascript:parent.window.close()">Close</a>&#160;|
+</div>
+<div id="textmode_cont"> <div id="title-box">
+<h1 class="title">
+Tema 1
+</h1>
+</div>
+<div id="objective-box">
+<a name="objective" id="objective"></a>
+<h2 class="objective-heading">
+Learning Objective
+</h2>
+<p class="objective-text">After completing this topic, you should be able to </p>
+<ul class="objective-list">
+<li class="objective"></li>
+</ul>
+</div>
+<div id="content-box">
+<div id="toc">
+<a name="contents" id="contents"></a>
+<h2 class="division">
+Table of Contents
+</h2>
+<p class="top-link">|&#160;
+<a href="#pagetop">Top of page</a>&#160;|</p>
+<p class="toc-link">|&#160;
+<a href="#objective">Learning Objective</a>&#160;|</p>
+</div>
+<div id="copyright-box">
+<p class="copyright-text">
+&#169; 2014 Skillsoft Ireland Limited
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

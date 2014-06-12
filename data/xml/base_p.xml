@@ -3,7 +3,7 @@
 <style category="standard"/>
 <text_item id="cdi" component_id="cdi_01" visible="false">
 <value/>
-<behavior id="playAudio1" target="audioi_01"/>
+<behavior id="playAudio2" target="audioi_01"/>
 <behavior id="showVideo1" target="vi_01"/>
 <style/>
 </text_item>
@@ -14,10 +14,10 @@
 <audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="0" component_id="audioi_01" characterSelected="true" file=""/>
 <video_item id="vi" component_id="vi_01">
 <posterImage file=""/>
-<resolution w="654" h="356" platform="desktop">
+<dialog_timeline>0</dialog_timeline>
+<resolution w="768" h="432" platform="desktop">
 <video type="mp4" file="/media/video/t2_vid_0001.mp4"/>
 <video type="swf" file="/media/video/t2_vid_0001.flv"/>
 </resolution>
 </video_item>
 </Page>
-

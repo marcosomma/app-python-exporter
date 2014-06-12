@@ -5,21 +5,24 @@
 <LearningPointObject>
 <LearningPointItem type="Instruction" id="" name="LP 1: " tcNodeStatus="false" commentStatus="None" hasVideo="true">
 <PageObject>
-<PageItem mode="Caption" strategy="Caption" name="" templateConfigID="video_standard_caption" templateName="Video Standard Caption" templateFileName="enhanced_html_caption.xml" publishTemplateFileName="enhanced_html_caption.xml" templateType="34" version="1" templateCategory="normal" characterDialog="true" videoPresent="true" isChildPage="false" tcNodeStatus="false" commentStatus="None" id="P10" styleCategoenhanced_html_captionry="standard" hasVideo="true">
+<PageItem mode="Caption" strategy="Caption" name="" templateConfigID="video_standard_caption" templateName="Video Standard Caption" templateFileName="enhanced_html_caption.xml" publishTemplateFileName="enhanced_html_caption.xml" templateType="36" version="1" templateCategory="standard" characterDialog="true" videoPresent="true" isChildPage="false" tcNodeStatus="false" commentStatus="None" id="" hasVideo="true" styleCategory="standard" importedAsSim="true">
 <DialogModelItem visible="false" id="cdi" tagName="text_item" category="dialog" contCategory="dialog_container,dialog_caption_text_container" contID="cont_dia,cont_ti" allowMultiple="true" allowMultiplesLimit="0" characterLabelSelected="true" component_id="cdi_01" min="1">
-<BehaviorItem id="playAudio1" target="audioi_01"/>
+<DialogLabelModelItem visible="true">
+<value>Narrator</value>
+</DialogLabelModelItem>
+<GraphicDescriptionItem enabled="false" selected="true" altTextEnabled="true"/>
+<BehaviorItem id="playAudio2" target="audioi_01"/>
 <BehaviorItem id="showVideo1" target="vi_01"/>
 </DialogModelItem>
-<GraphicDescriptionItem enabled="false" selected="true" altTextEnabled="true"/>
 <AudioModelItem visible="true" id="audioi" tagName="audio_item" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="0" component_id="audioi_01" characterSelected="true" file="">
 <DialogLabelModelItem visible="true">
 <value>Narrator</value>
 </DialogLabelModelItem>
 </AudioModelItem>
-<VideoModelItem visible="false" selected="true" id="vi" tagName="video_item" category="" contCategory="" contID="" allowMultiple="false" allowMultiplesLimit="0" component_id="vi_01">
+<VideoModelItem visible="false" selected="true" id="vi" tagName="video_item" category="" contCategory="" contID="" allowMultiple="false" allowMultiplesLimit="0" component_id="vi_01" timeline="0">
 <VideoDirectionModelItem visible="true" scene="" attire="" props=""/>
 <PlatformContainerModelItem visible="true">
-<PlatformModelItem visible="true" width="654" height="356" platform="desktop" filename="">
+<PlatformModelItem visible="true" width="768" height="432" platform="desktop" filename="">
 <VideoFormatModelItem visible="true" format="mp4" type="mp4"/>
 <VideoFormatModelItem visible="true" format="flv" type="swf"/>
 </PlatformModelItem>
@@ -30,11 +33,10 @@
 </LearningPointItem>
 </LearningPointObject>
 <ObjectivesObject commentStatus="None" hasVideo="false" id="_T2Objv01" name="Objectives" tcNodeStatus="false">
-<ObjectiveItem objectiveType="terminal" tested="true" learningDomain="cognitive" learningLevel="" contentType="" id="" name="TObj1" tcNodeStatus="false" commentStatus="None">
+<ObjectiveItem objectiveType="terminal" tested="" learningDomain="cognitive" learningLevel="" contentType="" id="" name="TObj1" tcNodeStatus="false" commentStatus="None">
 <sourceMaterial></sourceMaterial>
+<ChildPages></ChildPages>
 <text></text>
-<strategy></strategy>
-<instructionalPlan></instructionalPlan>
 </ObjectiveItem>
 </ObjectivesObject>
 </TopicObject>

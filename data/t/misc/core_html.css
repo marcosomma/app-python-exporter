@@ -1,0 +1,225 @@
+
+/* STYLES FOR CONTENT ON SCREEN */
+
+#fullpage-box { width: 100%; z-index: 1; }
+#content-box { color: #000000; margin-left: 40px; width: 90%; background: #ffffff; }
+#copyright-box { left: 30px; margin-top: 50px; text-align: center; width: 100%; }
+#printer-article { border: 0 none; color: #000000; margin-left: 540px; margin-top: 15px; position: absolute; vertical-align: top; width: 100px; z-index: 12; background: #ffffff; }
+#printer-text {  margin-top: 2.0em;padding-right: 60px; text-align: right; white-space: normal; font: normal normal bold 0.8em Arial,Helvetica,sans-serif; }
+#toc { margin-bottom: 2.0em; }
+.action { color: #000000; font-size: 0.9em; margin-left: 55px; padding: 5px; width: 520px; background: #f0f0f0; }
+.article-subheading { color: #000000; font-family: Arial, sans-serif; font-weight: bold; margin-left: 55px; padding-top: 10px; text-decoration: none; background: #ffffff; }
+.bodytext-bullet-list { font-weight: 500; }
+.bodytext-definition-list { color: #000000; font-size: 0.9em; padding: 10px; background: #f0f0f0; }
+.bodytext-definition-list dd, .bodytext-definition-list dt { color: #000000; font-size: 1.0em; line-height: 1.2em; background: #f0f0f0; }
+.bodytext, .intro-bodytext{ font-size: 0.9em; font-weight: 500; margin-left: 55px; width: 85%; }
+.callout-rule { margin-left: 100px; text-align: left; width: 480px; }
+.callout-text { color: #003366; margin-left: 110px; text-align: center; text-decoration: none; width: 460px; font: italic bold 1.0em "Times New Roman", Times, serif; background: #ffffff; }
+.center, .holder { padding-top: 10px; }
+.code-paragraph { color: #000000; margin-left: 55px; text-align: left; text-decoration: none; width: 85%; font: normal 0.9em "Courier New", monospace; background: #f0f0f0; padding: 15px 20px; }
+.coding-list-container { color: #000000; margin-left: 55px; text-align: left; text-decoration: none; width: 520px; font: normal 0.9em "Courier New", monospace; background: #f0f0f0; padding: 15px 20px 25px; }
+.coding-list-label { color: #003366; padding-top: 5px; font: bold 1.0em Arial, sans-serif; background: #f0f0f0; }
+.copyright-text { color: #000000; font-size: 0.7em; line-height: 105%; padding-bottom: 30px; background: #ffffff; }
+.division { background-color: #ffffff; border-bottom-color: #bababa; border-bottom-style: solid; border-bottom-width: thin; color: #003366; font-family: Arial, sans-serif; font-size: 1.0em; font-weight: bold; padding-bottom: 0.5em; padding-left: 2px; padding-top: 0.4em; width: 100%; }
+.drilldown-bullet-list { margin-left: 50px; }
+.feature-box { border-color: #bababa; border-style: solid; border-width: 0.4em; color: #b00000; font-size: 0.9em; margin-left: 55px; text-align: left; width: 90%; background: #f5f5f5; margin-top: 1.0em; }
+.feature-content-container { margin: 0.3em; padding: 0.5em; }
+.feature-label, .slide-content { color: #003366; margin-left: 55px; text-decoration: none; font: bold 1.0em Arial, sans-serif; background: #ffffff; }
+.feature-stem { font-family: Arial, sans-serif; color: #b00000; font-weight: 500; margin-left: 1.0em; margin-right: 1.0em; background: transparent; }
+.feature-subheading { color: #000000; margin-left: 1.0em; margin-right: 1.0em; font: 700 1.0em Arial, sans-serif; background: transparent; }
+.feature-text { color: #000000; font-family: Arial, sans-serif; font-style: italic; font-weight: 500; margin-left: 1.0em; margin-right: 1.0em; background: transparent; }
+.secondlevel-text { color: #003366; font-family: Arial, sans-serif; font-style: italic; font-weight: 500; margin-left: 1.0em; margin-right: 1.0em; background: transparent; }
+.secondlevel-table-text { color: #003366; font-family: Arial, sans-serif; font-style: italic; font-weight: 500; width: 96%; background: transparent; }
+.link-instruction { color: #000000; margin-left: 55px; text-align: left; width: 520px; font: italic 500 0.8em Arial, sans-serif; background: #ffffff; }
+.moderator, .audience, .guest { font-size: 0.9em; margin-left: 55px; width: 520px; }
+.audience { color: #800000; background-color: #ffffff; }
+.no-class { font-style: normal; }
+.objective-heading, .speaker-heading { border-bottom-color: #bababa; border-bottom-style: solid; border-bottom-width: thin; color: #003366; padding-bottom: 0.5em; padding-left: 2px; padding-top: 1.0em; width: 90%; font: bold 0.9em Arial, sans-serif; background: #ffffff; }
+.objective-text { margin-left: 55px; width: 80%; font: italic 500 1.0em "Times New Roman", Times, serif; }
+ul.objective-list {  width: 600px; list-style-type: square; list-style-position: outside; text-align: left; }
+.objective { padding-bottom: 0.3em; font: italic 500 1.1em "Times New Roman", Times, serif; }
+.options-list { text-decoration: none; font: 500 100% Arial, sans-serif; }
+.options { font-family: Arial, sans-serif; list-style-position: outside; margin-left: 50px; text-decoration: none; }
+li.lettered-options { list-style-type: upper-alpha; }
+.picture-box { border-color: #ffffff; border-style: solid; border-width: 0.1em; font-size: 0.9em; margin-bottom: 0px; margin-left: 54px; text-align: left; width: 540px; }
+.picture-caption { font-size: 0.8em; font-weight: bold; margin-left: 55px; margin-top: 5px; }
+.question-definition-list { color: #b00000; margin-left: 1.0em; margin-right: 1.0em; padding-top: 1.0em; width: 440px; font: 600 1.0em Arial, sans-serif; background: transparent; }
+.question-definition-list dd { color: #b00000; margin-left: 1.0em; margin-right: 1.0em; margin-bottom: 1.0em; font: normal 1.0em Arial, sans-serif; background: transparent; }
+.question-definition-list dt { color: #b00000; margin-left: 1.0em; margin-right: 1.0em; font: 800 1.0em Arial, sans-serif; background: transparent; }
+.feature-content-container h4 { color: #000000; margin-left: 1.0em; margin-right: 1.0em; padding-top: 0.5em;  font: 600 1.1em Arial, sans-serif; background: transparent; border-bottom-color: #bababa; border-bottom-style: solid; border-bottom-width: thin; color: #003366; padding-bottom: 0.5em;}
+.feature-content-container dl { background: transparent; margin-left: 1.0em; margin-top: 0.5em;}
+.feature-content-container dt { color: #b00000; margin-right: 1.0em; font: 800 1.0em Arial, sans-serif; background: transparent; }
+.feature-content-container dd { color: #b00000; margin-right: 1.0em; margin-bottom: 1.0em; font: normal 1.0em Arial, sans-serif; background: transparent; }
+.matches { color: #b00000; margin-left: 3.0em; margin-right: 1.0em; font: normal 1.0em Arial, sans-serif; background: transparent; line-height: 1.0em;}
+.feature-content-container h3 { color: #000000; margin-left: 1.0em; margin-right: 1.0em; padding-top: 0.5em;  font: 600 1.1em Arial, sans-serif; background: transparent; border-bottom-color: #bababa; border-bottom-style: solid; border-bottom-width: thin; color: #003366; padding-bottom: 0.5em;}
+.ranking-question-table { margin-left: 1.0em; margin-right: 1.0em; }
+.replaceable, em { font-style: italic; }
+.step-details { font-size: 0.8em; font-weight: normal; padding-bottom: 0.5em; text-align: left; }
+.step-number { font-size: 0.8em; font-weight: bold; text-align: center; }
+.subheading-regular { color: #000000; margin-left: 55px; padding-top: 10px; text-decoration: none; font: 700 0.9em Arial, sans-serif; background: #ffffff; }
+.supplement-instruction { color: #000000; margin-left: 1.5em; margin-right: 1.0em; font: italic 500 0.8em Arial, sans-serif; background: transparent; }
+.supplement-text { color: #000000; font-family: Arial, sans-serif; font-style: normal; font-weight: 500; margin-left: 1.0em; margin-right: 1.0em; background: transparent; }
+.supplement-title { color: #003366; font-family: Arial, sans-serif; font-style: normal; font-weight: bold; margin-left: 1.0em; margin-right: 1.0em; background: transparent; }
+.syntax-box, .table-box { margin-left: 55px; margin-top: 10px; margin-bottom: 10px; }
+.syntax-paragraph { color: #800000; margin-left: 55px; margin-right: 10px; text-align: left; text-decoration: none; width: 520px; font: normal 0.9em Arial, sans-serif; background: #ffffff; padding: 0px 10px 0px 30px; }
+.title { color: #003366; width: 80%; font: bold 1.3em/1.2em Arial, sans-serif; background: #ffffff; }
+.transcript-bullet-list { margin-left: 104px; }
+.transcript-subheading-regular { font-size: 0.9em; font-weight: 700; margin-left: 55px; width: 520px; }
+a:active { color: #ff910e; font-family: Arial, sans-serif; font-weight: bold; text-decoration: underline; background: transparent; }
+a:hover { color: #b00000; font-family: Arial, sans-serif; font-weight: bold; text-decoration: underline; background: transparent; }
+a:link, a:visited { color: #0000bb; font-family: Arial, sans-serif; font-weight: bold; text-decoration: underline; background: transparent; }
+blockquote { color: #000000; margin-left: 100px; width: 505px; font: 0.7em Arial, sans-serif; background: #ffffff; }
+body { background: url(background.gif) #ffffff; color: #000000; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; font: 90%/120% Arial, sans-serif; }
+caption { color: #b00000; padding-bottom: 10px; text-align: left; font: bold small Arial, sans-serif; background: #ffffff; }
+caption.ranking-question { color: #b00000; padding-bottom: 10px; text-align: left; font: bold small Arial, sans-serif; background: #f5f5f5; }
+code { text-decoration: none; font: normal 1.0em "Courier New", monospace; }
+h1 { color: #000000; font-family: Arial, sans-serif; font-weight: bold; text-decoration: none; background: #ffffff; }
+h2 { text-decoration: none; font: bold 1.0em Arial, sans-serif; }
+h3 { color: #000000; text-decoration: none; font: bold 0.8em Arial, sans-serif; background: #ffffff; }
+h3.heading-3 { margin-bottom: -0.5em; color: #000000; margin-left: 55px; text-decoration: none; font: bold 1.1em Arial, sans-serif; background: #ffffff; }
+h4, h5 { color: #000000; text-decoration: none; font: italic bold 0.8em Arial, sans-serif; background: #ffffff; }
+h4.heading-4 { margin-bottom: -0.5em; color: #000000; margin-left: 55px; text-decoration: none; font: bold 1.0em Arial, sans-serif; background: #ffffff; }
+img { border: 0 none; }
+p { color: #000000; font-family: Arial, sans-serif; background: #ffffff; }
+pre { margin-left: 100px; margin-top: 0px; padding-top: 0px; }
+strong { font-weight: bold; }
+#printout-logo-right-solo, #printout-logo-right, #printout-logo-left  { display: none; }
+#objective-box, #speaker-box, #title-box { color: #000000; margin-left: 40px; background: #ffffff; }
+.action code, .coding-list-body { color: #000000; background: #f0f0f0; }
+.top-link, .toc-link { color: #d0d0d0; font-size: 0.8em; margin-left: 55px; background: transparent; }
+.hidden { display: none;}
+.highlighted { color: #ffffff; background-color: #800000; }
+
+
+/* STYLES FOR TABLES AND LISTS */
+
+dl { color: #000000; font-family: Arial, sans-serif; font-weight: normal; margin-left: 55px; text-align: left; width: 85%; background: #ffffff; }
+dd { color: #000000; margin-bottom: 0.4em; text-align: left; font: normal 0.9em/105% Arial, sans-serif; background: #ffffff; }
+dt { color: #000000; margin-bottom: 0.4em; text-align: left; text-decoration: none; font: bold 0.9em/105% Arial, sans-serif; background: #ffffff; }
+.holder div.table-box {margin-top: 0px; }
+li { font-family: Arial,Helvetica,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; list-style-position: outside; margin-bottom: 0.2em; margin-top: 2px; }
+li li { list-style-type: circle; list-style-position: outside; }
+li ol, li.numbered { list-style-type: decimal; }
+li.nested { font-size: 1.0em; list-style-type: none; margin-bottom: 0.0em; }
+ol.options { padding-left: 10px; margin-right: 20px; list-style-type: decimal; }
+table { border-collapse: collapse; border-color: #c0c0c0; border-style: solid; border-width: 1px; font-family: Arial, sans-serif; text-align: left; vertical-align: top; }
+table.ranking { border-collapse: collapse; border-color: #c0c0c0; font-family: Arial, sans-serif; text-align: left; vertical-align: top; width: 90%; }
+td { border-color: #c0c0c0; border-style: solid; border-width: 1px; color: #000000; padding: 5px; text-align: left; vertical-align: top; font: 0.8em Arial, sans-serif; background: #ffffff; }
+td li { font-size: 100%; }
+td li.nested ol, td li.nested ul { font-size: 100%; margin: 0.2em 0.2em 0.2em 0.9em; padding: 0.2em 0.2em 0.2em 0.9em; }
+td ol { list-style-type: decimal; list-style-position: outside; margin: 0.2em 0.2em 0.2em 0.9em; padding: 0.2em 0.2em 0.2em 0.9em; text-decoration: none; font: 100% Arial, sans-serif; }
+td ul { list-style-type: disc; list-style-position: outside; margin: 0.2em 0.2em 0.2em 0.9em; padding: 0.2em 0.2em 0.2em 0.9em; text-decoration: none; font: 100% Arial, sans-serif; }
+td.corner, th.corner, td.blank, th.blank { font-style: italic; background: #d9d9d9; color: #000000; }
+th { color: #000000; padding: 5px; text-align: left; vertical-align: top; font: bold 0.8em Arial, sans-serif; background: #c0c0c0; }
+th.rowheader { color: #000080; padding: 5px; text-align: left; vertical-align: top; border-bottom: solid thin #ffffff; font: bold 0.8em Arial, sans-serif; background: #c0c0c0; }
+tr { vertical-align: top; border-color: #c0c0c0; border-width: 2px; }
+ul ol { margin-left: 0px; padding-left: 28px; margin-top: -0.2em; margin-bottom: 0.9em;}
+ul ul { margin-left: 0px; padding-left: 20px; margin-top: -0.2em; margin-bottom: 0.9em;}
+ul,ol, .transcript-bullet-list { list-style: disc outside; margin-left: 0px; padding-left: 100px; text-decoration: none; font: 0.9em Arial,Helvetica,sans-serif; }
+
+/* LEGACY CONTENT SUPPORT STYLES - DO NOT DELETE WITHOUT COMPLETE TEST FOR OVERLAP WITH CURRENT CONTENT */
+
+.seminar-caption { color: #003366; font-size: 0.8em; font-weight: bold; margin-left: 55px; margin-top: 5px; background: #ffffff; }
+.slide-bullet-list { color: #b00000; font-weight: 600; list-style-position: outside; list-style-type: square; margin: 1.5em; padding-left: 1.5em; text-decoration: none; background: transparent; }
+.slide-bullet-regular { font-family: Arial, sans-serif; font-weight: bold; text-decoration: none; }
+.slide-code-paragraph { color: #003366; padding-left: 10px; padding-right: 10px; text-align: left; text-decoration: none; font: bold 1.0em "Courier New", monospace; background: #f5f5f5; }
+.slide-list-intro { color: #b00000; margin-left: 1.0em; margin-right: 1.0em; font: 600 0.9em Arial, sans-serif; background: transparent; }
+.slide-running-head { color: #b00000; margin-left: 1.0em; margin-right: 1.0em; text-transform: uppercase; font: 900 1.0em Arial, sans-serif; background: transparent; }
+.slide-title { color: #b00000; text-decoration: none; font: bold 1.1em Arial, sans-serif; background: #ffffff; }
+.slide { padding-bottom: 30px; }
+.speaker-text { margin-left: 55px; width: 500px; font: bold 0.9em Arial, sans-serif; }
+.workshop-code-slide { color: #b00000; font-size: small; font-weight: 600; background: #f5f5f5; }
+.workshop-code { color: #000000; margin-left: 55px; text-align: left; text-decoration: none; font: bolder 1.0em "Courier New", monospace; background: #f0f0f0; padding: 15px 20px 15px 40px; }
+
+
+/* STYLES FOR LIVE REPORTS */
+
+#live-report #content-box { color: #000000; margin-left: 40px; width: 96%; background: #ffffff; }
+#live-report .content-box-live-report { color: #000000; margin-left: 40px; width: 540px; background: #ffffff; }
+#live-report .title-box-live-report { color: #000000; margin-left: 40px; background: #ffffff; }
+#live-report .objectives-live-report { color: #000000; margin-left: 40px; background: #ffffff; }
+#live-report  h2.lesson-live-report { color: #000000; width: 80%; font: bold 1.1em/1.3em Arial, sans-serif; background: #ffffff; padding-top: 1.3em; }
+#live-report h3.topic-live-report, #live-report h2.overview-live-report { border-bottom-color: #bababa; border-bottom-style: solid; border-bottom-width: thin; color: #003366; padding-bottom: 0.5em; padding-left: 2px; padding-top: 1.0em; width: 96%; font: bold 1.0em Arial, sans-serif; background: #ffffff; }
+#live-report h4.lp-live-report { background-color: #ffffff;  color: #800000; font-family: Arial, sans-serif; font-style: normal; font-size: 1.0em; font-weight: bold; padding-bottom: 0.5em; padding-left: 2px; padding-top: 0.4em; width: 100%; margin-left: 40px; }
+
+
+/* --------------------------------------------------  */
+
+
+/*  STYLES FOR PRINTING */
+
+@media print {
+
+#resourcespage, #resources { margin-left: 0px; margin-right: 30px; padding-left: 0px; }
+ul, ol { margin-left: 20px; padding-left: 20px; }
+td { height: 1.5em; line-height: 1.3em; }
+td.field { width: 100px; }
+.formtable { page-break-before: always; }
+#printout-logo-right-solo { display: block; text-align: right; clear: left; }
+#printout-logo-right { display: block; float: right; position: absolute; top: 0; left: 11.0cm;}
+#printout-logo-left { display: block; float: left; }
+#title-box-article, .title-article { width: 100%; padding-bottom: 16px; }
+#coursereference { margin-top: 2.0em; border-top-color: #bababa; border-top-style: solid; border-top-width: 2px; border-bottom-color: #bababa; border-bottom-style: solid; border-bottom-width: 2px; padding-top: 0.1em; margin-left: 0px; margin-right: 0px; width: 100%; }
+#coursereference p { margin-top: 0.3em; margin-bottom: 0.2em; margin-left: 0px; font-size: 80%; width: 100%; }
+p.coursetopic { margin-top: 0.2em; margin-bottom: 0.2em; margin-left: 0px; font-size: 80%; }
+h1.title-article, h1.aid-title { margin-top: 3.0em; border-bottom-color: #bababa; border-bottom-style: solid; border-bottom-width: 2px; padding-bottom: 0.2em; width: 100%; margin-bottom: 10px; font-size: 1.1em; margin-left: 0px; }
+#main-box { margin-left: 0px; margin-top: 0.1em; display: block; width: 100%; }
+p { padding-bottom: 0px; font-size: 0.9em; margin-left: 0px; }
+ul { margin-bottom: -10px; padding-bottom: 0px; font-size: 0.9em; list-style: disc outside; margin-left: 15px; }
+li { line-height: 120%; margin-bottom: 0.4em; }
+#bottom-index-box { margin-bottom: 0px; }
+#objectiveslist { text-indent: 0px; }
+p.objectives-intro { padding-top: 1.0em; text-indent: 0px; padding-bottom: 0; margin-bottom: 0; }
+h2.objectives-subhead { margin-left: 0px; padding-top: 1.0em; text-indent: 0px; margin-bottom: 0.6em; }
+#resourcespage ul { margin-top: 1.0em; }
+#resources ul { margin-top: 0.6em; }
+.referencelabel { text-decoration: none; white-space: normal; color: #a0a0a0; width: 400px; font: normal normal bold 2.2em Arial,Helvetica,sans-serif; background: transparent; }
+#main-box dl { margin-top: 10px; }
+.table-box { padding-top: 0px; margin-bottom: 0px; margin-left: 2px;}
+#main-box .table-box { margin-top: 0px; width: 100%; }
+body, #resources, h1, h2, .referencelabel, .referencetitle, #body-content, .holder, .intro-bodytext, .bodytext, .picture-caption, #title-box-article, .subcategory, .subhead-resources-bodytext, .indented-resources-bodytext, .title-article, h2.article-subheading, h3.article-subheading, h4.article-subheading, ul ol { margin-left: 0px; padding-left: 0px; }
+ul ul, ul ol { margin-left: 20px; }
+.holder { page-break-before: auto; padding-top: 0px; font-size: 100%; }
+#definitions { page-break-before: auto; }
+#main-box p, #main-box ul { margin-top: 0px; margin-bottom: 10px; width: 100%; }
+.printout-resourcetype, .screenlabel, #main-box .form-caption, #printer-text, noscript, input, #bottomlinks, p.backtotop, #toc { display: none; }
+#resources div.copyright-claim p{ display: block; text-align: center; }
+body { background: 0; } 
+#fullpage-box { width: 95%; }
+.objective-heading { width: 100%; }
+.objective-list { margin-bottom: 0.6em; }
+dl { margin-left: 0px; width: 95%; margin-top: 30px; }
+dt { margin-left: 0px; margin-right: 15px; width: 90%; }
+.feature-box { margin-left: 0px; width: 95%; }
+.feature-content-container { margin-left: 0px; width: 90%; padding-bottom: 1.0em; }
+.code-paragraph { margin-left: 0px; width: 90%; padding: 15px 20px; }
+.top-link { display: none; }
+.syntax-paragraph { margin-left: 15px; width: 90%; }
+li.objective { margin-left: 55px; width: 90%; list-style-type: square; list-style-position: outside; text-align: left; }
+#objective-box { margin-left: 0px; }
+#title-box  { margin-left: 0px; padding-top: 0; margin-top: 0; clear: right; }
+#title-box h1.title  { margin-left: 0px; width: 10.0cm; margin-top: 0; }
+.objective-text, #content-box, h2.division, p.bodytext, .feature-label { margin-left: 0px; width: 100%; }
+dd { margin-left: 20px;  }
+.picture-box { margin-left: 0px; text-align: left;}
+.picture-box img { margin-left: 0px; }
+h3.heading-3, h4.heading-4 { margin-left: 0px; }
+.supplement-instruction { margin-left: 1.0em; }
+
+
+/* STYLES FOR PRINTING LIVE REPORTS */
+
+#live-report #content-box { margin-left: 40px; width: 96%; }
+#live-report .content-box-live-report { margin-left: 0px; width: 100%;  }
+#live-report .title-box-live-report { margin-left: 0px; }
+#live-report .objectives-live-report { margin-left: 0px; }
+#live-report  h2.lesson-live-report { width: 100%; }
+#live-report h3.topic-live-report {  padding-left: 0px;  width: 96%; }
+#live-report h4.lp-live-report {  padding-left: 0px; width: 100%; margin-left: 0;}
+#live-report #toc { display: block; }
+#live-report h2.overview-live-report {  padding-left: 0px; padding-top: 1.0em; width: 96%; }
+
+}
+/* DO NOT DELETE EXTRA CHAIN BRACKET ON PREVIOUS LINE  */
+
+/* --------------------------------------------------  */

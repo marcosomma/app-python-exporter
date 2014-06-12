@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Topic glossary="glossary.html" objectives="course_obj.html" references="references.html" skillbriefs="skillbriefs.html" transcripts="transcript.html" jobaids="jobaids.html" learningaids="learningaids.html" resources="resources_home.html" acknowledgements="acknowledgements.html" aboutThisCourse="about_course.html" copyright="copyrights.html" license="licensing.html" foas="followons.html" id="" name="" estimatedDuration="" sourceMaterial="" hasVideo="true" maxMediaID="" keywords="xxx">
+<Topic glossary="glossary.html" objectives="course_obj.html" references="references.html" skillbriefs="skillbriefs.html" transcripts="transcript.html" jobaids="jobaids.html" learningaids="learningaids.html" resources="resources_home.html" acknowledgements="acknowledgements.html" aboutThisCourse="about_course.html" copyright="copyrights.html" license="licensing.html" foas="followons.html" id="" name="" topicApproxDuration="" sourceMaterial="" generalRemarks="" keywords="" maxMediaID="4" hasVideo="true">
 <topicType>Instruction</topicType>
 <topicTitle></topicTitle>
 <LearningPoint type="Instruction" id="" name="LP 1: " hasVideo="true">
 <PageStub file="" id=""/>
 </LearningPoint>
-<Objective objectiveType="terminal" tested="true" learningDomain="cognitive" learningLevel="" contentType="" id="" name="TObj1">
+<Objective objectiveType="terminal" tested="" learningDomain="cognitive" learningLevel="" contentType="" id="" name="TObj1">
 <sourceMaterial></sourceMaterial>
 <text></text>
-<strategy></strategy>
-<instructionalPlan></instructionalPlan>
 </Objective>
 </Topic>

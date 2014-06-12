@@ -1,0 +1,317 @@
+{
+	"identifier": "test_me_a02_bs_enus",
+	"name": " Test ",
+	"description": "description M",
+	"goal": "goal",
+	"source_material": "source material M",
+	"target_audience": "target audience M",
+	"prerequisites": "prerequisites M",
+	"keywords": "keywords M",
+	"language": "language M",
+	"duration": 100,
+	"lessons": [
+		{
+			"name": "lesson 1",
+			"topics": [
+				{	
+					"book_id": "555505",
+					"name" : "topic 2",
+					"planned_duration" : 2,
+					"learning_objective" : "learning_objective",
+					"exam_objective" : "exam_objective",
+					"keywords" : "keywords1, keywords2, keywords3",
+					"assessment" : []
+				}
+			]
+		},
+		{
+			"name": "lesson 2",
+			"topics": [
+				{	
+					"book_id": "555506",
+					"name" : "topic 3",
+					"planned_duration" : 2,
+					"learning_objective" : "learning_objective",
+					"exam_objective" : "exam_objective",
+					"keywords" : "keywords1, keywords2, keywords3",
+					"assessment" : [
+						{
+							"type": "mamc",
+							"layout": "standard",
+							"text" : "Question 1 - Topic 3",
+							"prompt" : "Prompt question 1",
+							"options" : [
+								{
+									"text" : "text answer 1"
+								},
+								{
+									"text" : "text answer 2",
+									"correct" : true
+								},
+								{
+									"text" : "text answer 3"
+								}
+							]
+						},
+						{
+							"type": "matching_text",
+							"text" : "Aqui va la pregunta...",
+							"options" : [
+								{
+									"text" : "text answer 1"
+								},
+								{
+									"text" : "text answer 2"
+								},
+								{
+									"text" : "text answer 3"
+								}
+							],
+							"targets": [
+								{
+									"text": "blah",
+									"option": 1
+								},
+								{
+									"text": "blah 2",
+									"option": 3
+								},
+								{
+									"text": "blah 3",
+									"option": 2
+								}
+							]
+						},
+						{
+							"type": "rank_sequence",
+							"text" : "Aqui va la pregunta...",
+							"options" : [
+								{
+									"text" : "text opcion 1",
+									"alt" : "ALT text 1",
+									"position": 3
+								},
+								{
+									"text" : "text opcion 2",
+									"alt" : "ALT text 2",
+									"position": 2
+								},
+								{
+									"text" : "text opcion 3",
+									"alt" : "ALT text 3",
+									"position": 1
+								}
+							]
+						},
+						{
+							"type": "rank_sequence",
+							"text" : "Question 4 - Topic 3",
+							"prompt" : "Prompt question 2",
+							"options" : [
+								{
+									"text" : "text opcion 1",
+									"alt" : "ALT text 1"
+								},
+								{
+									"text" : "text opcion 2",
+									"alt" : "ALT text 2"
+								},
+								{
+									"text" : "text opcion 3",
+									"alt" : "ALT text 3"
+								}
+							]
+						},
+						{
+							"type": "mamc",
+							"layout": "wide",
+							"text" : "Question 5 - Topic 3",
+							"prompt" : "Prompt question 2",
+							"options" : [
+								{
+									"text" : "text answer 1"
+								},
+								{
+									"text" : "text answer 2",
+									"correct" : true
+								},
+								{
+									"text" : "text answer 3"
+								}
+							]
+						},
+						{
+							"type": "matching_text",
+							"text" : "Question 6 - Topic 3",
+							"prompt" : "Prompt question 2",
+							"options" : [
+								{
+									"text" : "text answer 1"
+								},
+								{
+									"text" : "text answer 2"
+								},
+								{
+									"text" : "text answer 3"
+								}
+							],
+							"targets": [
+								{
+									"text": "blah",
+									"option": 1
+								},
+								{
+									"text": "blah 2",
+									"option": 3
+								},
+								{
+									"text": "blah 3",
+									"option": 2
+								}
+							]
+						},
+						{
+							"type": "shortanswer_text",
+							"text" : "Question 7 - Topic 3",
+							"prompt" : "Prompt question 2",
+							"code" : "CODE",
+							"syntax" : "SYNTAX",
+							"options" : [
+								{
+									"text" : "text answer 1",
+									"correct" : true
+								},
+								{
+									"text" : "text answer 2",
+									"correct" : true
+								},
+								{
+									"text" : "text incorrect 3",
+									"correct" : false
+								}
+							]
+						},
+						{
+							"type": "mamc",
+							"layout": "standard",
+							"text" : "Question 8 - Topic 3",
+							"prompt" : "Prompt question 2",
+							"options" : [
+								{
+									"text" : "text answer 1"
+								},
+								{
+									"text" : "text answer 2",
+									"correct" : true
+								},
+								{
+									"text" : "text answer 3"
+								}
+							]
+						},
+						{
+							"type": "mamc",
+							"layout": "wide",
+							"text" : "Question 9 - Topic 3",
+							"prompt" : "Prompt question 2",
+							"options" : [
+								{
+									"text" : "text answer 1"
+								},
+								{
+									"text" : "text answer 2",
+									"correct" : true
+								},
+								{
+									"text" : "text answer 3"
+								}
+							]
+						},
+						{
+							"type": "mamc",
+							"layout": "standard",
+							"text" : "Question 10 - Topic 3",
+							"prompt" : "Prompt question 2",
+							"options" : [
+								{
+									"text" : "text answer 1"
+								},
+								{
+									"text" : "text answer 2",
+									"correct" : true
+								},
+								{
+									"text" : "text answer 3"
+								}
+							]
+						}
+					]
+				},
+				{	
+					"book_id": "555507",
+					"name" : "topic 4",
+					"planned_duration" : 2,
+					"learning_objective" : "learning_objective",
+					"exam_objective" : "exam_objective",
+					"keywords" : "keywords1, keywords2, keywords3",
+					"assessment" : [
+						{
+							"type": "mamc",
+							"layout": "wide",
+							"text" : "Question 1 - Topic 4",
+							"prompt" : "Prompt question 1",
+							"options" : [
+								{
+									"text" : "text answer 1",
+									"correct" : true
+								},
+								{
+									"text" : "text answer 2"
+								},
+								{
+									"text" : "text answer 3"
+								}
+							]
+						},
+						{
+							"type": "mamc",
+							"layout": "wide",
+							"text" : "Question 2 - Topic 4",
+							"prompt" : "Prompt question 2",
+							"options" : [
+								{
+									"text" : "text answer 1"
+								},
+								{
+									"text" : "text answer 2"
+								},
+								{
+									"text" : "text answer 3",
+									"correct" : true
+								}
+							]
+						},
+						{
+							"type": "mamc",
+							"layout": "standard",
+							"text" : "Question 3 - Topic 4",
+							"prompt" : "Prompt question 2",
+							"options" : [
+								{
+									"text" : "text answer 1"
+								},
+								{
+									"text" : "text answer 2"
+								},
+								{
+									"text" : "text answer 3",
+									"correct" : true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

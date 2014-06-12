@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CourseObject structureVersion="1" name="test_cour_a01_it_enus - New Course" courseLanguage="English - US " courseType="IT" courseDefaultAudioFormat="SPX" id="test_cour_a01_it_enus" courseNumber="test_cour_a01_it_enus" commentsXMLVersion="1.0" courseIdsVerified="true" synergyVersionBuiltWith="1.23.119" selfMonitored="false" nasbaReady="true" splashRegeneration="true" transcripts="true" tcNodeStatus="false" descNodeTcStatus="false" commentStatus="None" synergyVersionEditedWith="1.23.119" synergyVersionTrail="1.23.119" hasNarratedAnimation="false" courseReleaseDate="" courseRevisionDate="" sourceMaterial="" courseVersion="1.0" replacedCourseID="n/a" revisionChanges="n/a" coursePublishedDuration="0.0" courseLanguagePrefix="enus" isCpeCreditQualified="false" enabled508="false" baseID="8" hasVideo="true" tabletReady="true" courseAudioFormats="SPX,WE,AAC">
+<CourseObject structureVersion="1" name="" courseLanguage="English - US " courseType="" courseDefaultAudioFormat="SPX" id="" courseNumber="" commentsXMLVersion="1.0" courseIdsVerified="true" synergyVersionBuiltWith="1.23.131" selfMonitored="false" nasbaReady="true" splashRegeneration="true" transcripts="" tcNodeStatus="false" descNodeTcStatus="false" commentStatus="None" synergyVersionEditedWith="1.23.131" synergyVersionTrail="1.23.131" hasNarratedAnimation="true" courseReleaseDate="" courseRevisionDate="" sourceMaterial="" courseVersion="1.0" replacedCourseID="n/a" revisionChanges="n/a" coursePublishedDuration="0.0" courseLanguagePrefix="enus" isCpeCreditQualified="false" enabled508="false" baseID="6" keywords="" tabletReady="true" courseAudioFormats="SPX,WE,AAC" hasVideo="true">
 <courseTitle></courseTitle>
 <courseTitle1></courseTitle1>
-<courseLocale></courseLocale>
+<courseLocale>en</courseLocale>
 <ResourcesObject tcNodeStatus="false" commentStatus="None">
 <ReferencesObject tcNodeStatus="false" commentStatus="None"/>
 <JobAidsObject tcNodeStatus="false" commentStatus="None"/>
 <FOAsObject tcNodeStatus="false" commentStatus="None"/>
 <AcknowledgementObject tcNodeStatus="false" commentStatus="None"/>
-<BLRsObject attBlrHeader="" tcNodeStatus="false" commentStatus="None"/>
+<BLRsObject attBlrHeader="Blended Learning Resources are designed to support blended learning activities and are aligned with the content contained in the course. The resources include PowerPoint slides that present the core content, including practice questions, and presenter notes that include deeper explanations, examples, answer keys to all of the practice questions, and discussion questions or activities to elicit participant involvement and on-the-job application.&#10;(Some tablet devices may not allow you to launch these resources from the links below.)" tcNodeStatus="false" commentStatus="None"/>
 </ResourcesObject>
 <pointerColor/>
 <highlightColor>255, 255, 0, 96</highlightColor>

@@ -1,0 +1,2 @@
+Pyinstaller
+	pyinstaller --noconsole --onefile --icon=data/img/icon.ico .\exporter.py
