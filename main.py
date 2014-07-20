@@ -12,6 +12,7 @@ p_counter = 0
 # INTERFACE
 root = Tk()
 rtitle = root.title("Coursify to Synergy")
+
 root.minsize(410,350)
 root.maxsize(410,350)
 root.configure(background='#fcfcfc')
